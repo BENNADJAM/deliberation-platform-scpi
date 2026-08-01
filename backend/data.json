@@ -1,0 +1,39 @@
+﻿{
+  "users": [
+    {
+      "id": "admin",
+      "role": "admin",
+      "name": "Chef de délibération",
+      "email": "admin@groupescolaireespoir.fr",
+      "password": "123456"
+    }
+  ],
+  "classes": [
+    { "id": "6a", "name": "6e A", "level": "6e" },
+    { "id": "5b", "name": "5e B", "level": "5e" }
+  ],
+  "students": [
+    {
+      "lastName": "Diop",
+      "firstName": "Awa",
+      "permanentCode": "PERM-001",
+      "className": "6e A",
+      "average": 14.5,
+      "status": "Admis",
+      "subjects": { "mathematiques": 15, "francais": 13 }
+    },
+    {
+      "lastName": "Sarr",
+      "firstName": "Moussa",
+      "permanentCode": "PERM-002",
+      "className": "6e A",
+      "average": 9.8,
+      "status": "Redoublant",
+      "subjects": { "mathematiques": 8, "francais": 10 }
+    }
+  ],
+  "subjects": [
+    { "id": "mathematiques", "label": "Mathématiques" },
+    { "id": "francais", "label": "Français" }
+  ]
+}
